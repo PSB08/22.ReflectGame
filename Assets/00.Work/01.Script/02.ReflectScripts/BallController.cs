@@ -100,7 +100,6 @@ public class BallController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("DeathWall"))
         {
-            ShakeCamera();
             Application.Quit();
             #if UNITY_EDITOR
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
