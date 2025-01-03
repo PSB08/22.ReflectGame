@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d303f2d1670ad384bb49ce98d8162267
+guid: 92a560bd884efca48b763339c4760778
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,17 +93,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DropBoxUI_0
+      name: RealSoundBtn_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 515
-        width: 746
-        height: 367
+        x: 24
+        y: 108
+        width: 230
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +124,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51fa54836bcaec04e9211a67ebb3e56d
-      internalID: 792049567
+      spriteID: 674c3853d9b23f0458c5c30f080564f3
+      internalID: -999955046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealSoundBtn_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 26
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfd914a31deb054fb982dacfa65a78d
+      internalID: 1618453426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealSoundBtn_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce404ed7a417564d865e15b9843cce8
+      internalID: -174445180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealSoundBtn_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddd17b5872e124a9a7b04b36a1cb1e
+      internalID: 1748264663
       vertices: []
       indices: 
       edges: []
@@ -128,7 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DropBoxUI_0: 792049567
+      RealSoundBtn_0: -999955046
+      RealSoundBtn_1: 1618453426
+      RealSoundBtn_2: -174445180
+      RealSoundBtn_3: 1748264663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

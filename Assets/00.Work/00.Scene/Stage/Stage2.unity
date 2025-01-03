@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
+  m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34782800
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5569d2aea48d92049b6020ab53b8da58, type: 3}
+  m_Sprite: {fileID: -70069734, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1014,8 +1014,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1182,10 +1182,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 468717936}
     m_Modifications:
-    - target: {fileID: 1500094776330580344, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: aaf49160fa23e7f4f978cc9f29452bff, type: 2}
     - target: {fileID: 3320362235960030964, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
       propertyPath: m_Name
       value: Ball
@@ -1231,9 +1227,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7982625052120825901, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
-      propertyPath: sceneName
-      value: Stage3
-      objectReference: {fileID: 0}
+      propertyPath: mainCam
+      value: 
+      objectReference: {fileID: 900650204}
     - target: {fileID: 7982625052120825901, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
       propertyPath: reflectManager
       value: 
@@ -1943,8 +1939,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2335,7 +2331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567862483
@@ -2414,7 +2410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5569d2aea48d92049b6020ab53b8da58, type: 3}
+  m_Sprite: {fileID: -70069734, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,9 +8,12 @@ public class BallController : MonoBehaviour
 {
     [SerializeField] private ReflectManager reflectManager;
     [SerializeField] private string sceneName;
+    [SerializeField] private Camera mainCam;
     public float speed = 10f;
     private Vector2 direction;
     private bool isActioned = false;
+    public float duration;
+    public float strength;
 
     // LineRenderer 추가
     private LineRenderer lineRenderer;
@@ -49,7 +53,7 @@ public class BallController : MonoBehaviour
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         direction = (mousePosition - (Vector2)transform.position).normalized;
 
-        lineRenderer.SetColors(Color.white, Color.gray);
+        //lineRenderer.SetColors(Color.white, Color.gray);
 
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, transform.position + (Vector3)direction * 7);
@@ -64,7 +68,7 @@ public class BallController : MonoBehaviour
         {
             reflectManager.lists.Remove(collision.gameObject);
             Destroy(collision.gameObject);
-            
+            ShakeCamera();
             Vector2 normal = collision.contacts[0].normal;
             direction = Vector2.Reflect(direction, normal);
             GetComponent<Rigidbody2D>().velocity = direction * speed;
@@ -96,6 +100,7 @@ public class BallController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("DeathWall"))
         {
+            ShakeCamera();
             Application.Quit();
             #if UNITY_EDITOR
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -106,6 +111,11 @@ public class BallController : MonoBehaviour
     private bool IsListEmpty(List<GameObject> list)
     {
         return list.Count == 0; // 리스트의 개수가 0이면 비어있음
+    }
+
+    public void ShakeCamera()
+    {
+        mainCam.DOShakePosition(duration, strength);
     }
 
 }
