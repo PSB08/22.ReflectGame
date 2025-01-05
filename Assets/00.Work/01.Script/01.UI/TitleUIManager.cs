@@ -40,6 +40,7 @@ public class TitleUIManager : MonoBehaviour
 
     public void ExitBtn()
     {
+        PlayerPrefs.DeleteKey("levelAt");
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif

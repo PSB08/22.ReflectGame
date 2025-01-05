@@ -2422,7 +2422,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.774
+  m_Value: 0.822
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2466,6 +2466,7 @@ GameObject:
   - component: {fileID: 3628286233408910798}
   - component: {fileID: 8933582144610243340}
   - component: {fileID: 5392370517835536168}
+  - component: {fileID: 8933582144610243341}
   m_Layer: 5
   m_Name: SFXMute
   m_TagString: Untagged
@@ -2493,7 +2494,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1618453426, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1568040752, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3092,7 +3093,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.774
+  m_Value: 0.355
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3615,12 +3616,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.6736737
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -3820,7 +3821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1618453426, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1568040752, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3984,6 +3985,7 @@ GameObject:
   - component: {fileID: 6174150571042869646}
   - component: {fileID: 3193652221008975296}
   - component: {fileID: 7797610828981828166}
+  - component: {fileID: 7797610828981828167}
   m_Layer: 5
   m_Name: MusicMute
   m_TagString: Untagged
@@ -4011,12 +4013,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.35435435
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -4106,6 +4108,7 @@ GameObject:
   - component: {fileID: 5834532853691048570}
   - component: {fileID: 9104771388007954734}
   - component: {fileID: 8351855039692465999}
+  - component: {fileID: 9104771388007954735}
   m_Layer: 5
   m_Name: MasterMute
   m_TagString: Untagged
@@ -4283,7 +4286,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4603,7 +4606,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1618453426, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1568040752, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4813,7 +4816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4870,7 +4873,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.774
+  m_Value: 0.674
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -5095,12 +5098,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.82182187
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -5396,6 +5399,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7797610828981828167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937295731651600555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7846093167649411439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,6 +5566,7 @@ GameObject:
   - component: {fileID: 2047405982342994073}
   - component: {fileID: 6896235936965292727}
   - component: {fileID: 6617589019951777734}
+  - component: {fileID: 8280420358384667170}
   m_Layer: 5
   m_Name: RetryBtn
   m_TagString: Untagged
@@ -5558,6 +5574,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8280420358384667170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280420358384667169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8347270515628166279
 GameObject:
   m_ObjectHideFlags: 0
@@ -5887,6 +5915,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8933582144610243341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892102061446055507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8961511292971988633
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6000,6 +6040,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9104771388007954735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301509303887167310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9122168066617902935
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,6 +6064,7 @@ GameObject:
   - component: {fileID: 1492532924942700324}
   - component: {fileID: 8002189085037284567}
   - component: {fileID: 1789259971477969204}
+  - component: {fileID: 9122168066617902936}
   m_Layer: 5
   m_Name: ExitBtn
   m_TagString: Untagged
@@ -6019,6 +6072,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9122168066617902936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9122168066617902935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &9152672892338978252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6105,7 +6170,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999955046, guid: 92a560bd884efca48b763339c4760778, type: 3}
+  m_Sprite: {fileID: -1190387579, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
