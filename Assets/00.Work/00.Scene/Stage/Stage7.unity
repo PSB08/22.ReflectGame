@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 443023602}
   - component: {fileID: 443023604}
   - component: {fileID: 443023603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Brick1
   m_TagString: DeathWall
   m_Icon: {fileID: 0}
@@ -937,7 +937,7 @@ GameObject:
   - component: {fileID: 826625277}
   - component: {fileID: 826625279}
   - component: {fileID: 826625278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Brick2
   m_TagString: DeathWall
   m_Icon: {fileID: 0}
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 1967185874}
   - component: {fileID: 1967185876}
   - component: {fileID: 1967185875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Brick4
   m_TagString: DeathWall
   m_Icon: {fileID: 0}
@@ -6414,10 +6414,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1987264902}
+  - {fileID: 1199728015}
   - {fileID: 1764092475}
   - {fileID: 52757610}
-  - {fileID: 1199728015}
-  - {fileID: 1467880003}
   - {fileID: 398326566}
+  - {fileID: 1467880003}
   - {fileID: 209115493}
   - {fileID: 1980944917}
