@@ -164,11 +164,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reflectManager: {fileID: 0}
-  sceneName: Stage3
+  sceneName: Stage2
   mainCam: {fileID: 0}
+  effectPrefab: {fileID: 8962316185664347095, guid: 6e721d9224fac4f46b32a206f8e1a293, type: 3}
   speed: 10
   duration: 0.03
   strength: 1
+  nextSceneLoad: 0
 --- !u!120 &1500094776330580344
 LineRenderer:
   serializedVersion: 2

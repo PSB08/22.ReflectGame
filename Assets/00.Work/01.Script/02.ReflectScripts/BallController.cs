@@ -3,25 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.PlayerSettings;
 
 public class BallController : MonoBehaviour
 {
+    [Header("Serial")]
     [SerializeField] private ReflectManager reflectManager;
-    [SerializeField] private string sceneName;
     [SerializeField] private Camera mainCam;
+    [SerializeField] private GameObject effectPrefab;
+    [SerializeField] private string sceneName;
+    [Space(10)]
+    [Header("Value")]
     public float speed = 10f;
-    private Vector2 direction;
-    private bool isActioned = false;
     public float duration;
     public float strength;
+    public int nextSceneLoad;
+    private Vector2 direction;
+    private bool isActioned = false;
 
-    // LineRenderer Ãß°¡
     private LineRenderer lineRenderer;
 
     private void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.positionCount = 2; 
+        lineRenderer.positionCount = 2;
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     private void Update()
@@ -68,7 +74,11 @@ public class BallController : MonoBehaviour
         {
             reflectManager.lists.Remove(collision.gameObject);
             Destroy(collision.gameObject);
+
             ShakeCamera();
+
+            StartCoroutine(EffectCoroutine());
+
             Vector2 normal = collision.contacts[0].normal;
             direction = Vector2.Reflect(direction, normal);
             GetComponent<Rigidbody2D>().velocity = direction * speed;
@@ -85,7 +95,11 @@ public class BallController : MonoBehaviour
 
             if (IsListEmpty(reflectManager.lists))
             {
-                SceneManager.LoadScene(sceneName);
+                SceneManager.LoadScene(nextSceneLoad);
+                if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+                {
+                    PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+                }
             }
             else
             {
@@ -94,6 +108,7 @@ public class BallController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Wall"))
         {
+            StartCoroutine(EffectCoroutine());
             Vector2 normal = collision.contacts[0].normal;
             direction = Vector2.Reflect(direction, normal);
             GetComponent<Rigidbody2D>().velocity = direction * speed;
@@ -112,6 +127,14 @@ public class BallController : MonoBehaviour
     public void ShakeCamera()
     {
         mainCam.DOShakePosition(duration, strength);
+    }
+
+    private IEnumerator EffectCoroutine()
+    {
+        Vector3 pos = transform.position;
+        GameObject effect = Instantiate(effectPrefab, pos, Quaternion.identity);
+        yield return new WaitForSeconds(0.2f);
+        Destroy(effect);
     }
 
 }

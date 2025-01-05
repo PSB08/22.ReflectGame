@@ -2262,6 +2262,7 @@ GameObject:
   - component: {fileID: 3628286234343069064}
   - component: {fileID: 8933582143145538378}
   - component: {fileID: 5392370516349826926}
+  - component: {fileID: 8933582143145538379}
   m_Layer: 5
   m_Name: SFXMute
   m_TagString: Untagged
@@ -3853,6 +3854,7 @@ GameObject:
   - component: {fileID: 6174150569561387464}
   - component: {fileID: 3193652221687559558}
   - component: {fileID: 7797610828315826688}
+  - component: {fileID: 7797610828315826689}
   m_Layer: 5
   m_Name: MusicMute
   m_TagString: Untagged
@@ -3975,6 +3977,7 @@ GameObject:
   - component: {fileID: 5834532854354903612}
   - component: {fileID: 9104771388956793192}
   - component: {fileID: 8351855040371001097}
+  - component: {fileID: 9104771388956793193}
   m_Layer: 5
   m_Name: MasterMute
   m_TagString: Untagged
@@ -5265,6 +5268,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7797610828315826689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937295732330135789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7846093166987882793
 GameObject:
   m_ObjectHideFlags: 0
@@ -5420,6 +5435,7 @@ GameObject:
   - component: {fileID: 2047405983275301087}
   - component: {fileID: 6896235935498441457}
   - component: {fileID: 6617589018738698112}
+  - component: {fileID: 8280420357720779368}
   m_Layer: 5
   m_Name: RetryBtn
   m_TagString: Untagged
@@ -5427,6 +5443,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8280420357720779368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280420357720779367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8347270514697940161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5756,6 +5784,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8933582143145538379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892102062644438549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8961511291769149151
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5869,6 +5909,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9104771388956793193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301509305087631112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9122168065149003537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,6 +5933,7 @@ GameObject:
   - component: {fileID: 1492532925877104482}
   - component: {fileID: 8002189084104961169}
   - component: {fileID: 1789259970264922482}
+  - component: {fileID: 9122168065149003538}
   m_Layer: 5
   m_Name: ExitBtn
   m_TagString: Untagged
@@ -5888,6 +5941,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9122168065149003538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9122168065149003537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984ed7e979420c4dbae8461f67ffaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &9152672893552057738
 CanvasRenderer:
   m_ObjectHideFlags: 0
