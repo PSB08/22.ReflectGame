@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.PlayerSettings;
 
 public class BallController : MonoBehaviour
 {
@@ -25,7 +24,7 @@ public class BallController : MonoBehaviour
 
     private void Start()
     {
-        lineRenderer = GetComponent<LineRenderer>();
+        lineRenderer = GetComponentInChildren<LineRenderer>();
         lineRenderer.positionCount = 2;
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
@@ -37,7 +36,6 @@ public class BallController : MonoBehaviour
             LaunchBall();
             isActioned = true;
         }
-
         if (!isActioned)
         {
             ShowLaunchDirection();
@@ -121,7 +119,7 @@ public class BallController : MonoBehaviour
 
     private bool IsListEmpty(List<GameObject> list)
     {
-        return list.Count == 0; // 리스트의 개수가 0이면 비어있음
+        return list.Count == 0;
     }
 
     public void ShakeCamera()
