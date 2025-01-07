@@ -267,10 +267,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 38361276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c952d0e4186cf0640b7dfec66930b684, type: 3}
+  m_Script: {fileID: 11500000, guid: e8ace8ced0e81c847968cdca0aeda757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 38361278}
+  typewriterStartsAutomatically: 0
+  animationLoop: 0
+  timeScale: 0
+  _text: Clear
+  useDynamicScaling: 1
+  referenceFontSize: 50
+  isResettingTimeOnNewText: 1
+  useDefaultDatabases: 1
+  databaseBehaviors: {fileID: 11400000, guid: a41daba20229bce46a903cafa03acc71, type: 2}
+  databaseAppearances: {fileID: 11400000, guid: e288a9b1a4f9b94438cca3e572a5eab0, type: 2}
+  useDefaultStyleSheet: 1
+  styleSheet: {fileID: 0}
+  databaseActions: {fileID: 11400000, guid: 982cb79253d8bb540867f4df39ca007b, type: 2}
+  defaultAppearancesTags:
+  - size
+  defaultDisappearancesTags: []
+  defaultBehaviorsTags:
+  - pend
+  defaultTagsMode: 0
 --- !u!1 &614287670
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1592329302
 RectTransform:
   m_ObjectHideFlags: 0
