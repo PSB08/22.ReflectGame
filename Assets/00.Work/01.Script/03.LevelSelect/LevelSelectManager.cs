@@ -47,6 +47,10 @@ public class LevelSelectManager : MonoBehaviour
                 {
                     stageButtons[k].gameObject.SetActive(false);
                 }
+                for (int l = 15; l < 20; l++)
+                {
+                    stageButtons[l].gameObject.SetActive(false);
+                }
                 pageButtons[0].interactable = false;
                 pageButtons[1].interactable = true;
                 pageButtons[2].interactable = true;
@@ -65,6 +69,10 @@ public class LevelSelectManager : MonoBehaviour
                 for (int k = 10; k < 15; k++)
                 {
                     stageButtons[k].gameObject.SetActive(false);
+                }
+                for (int l = 15; l < 20; l++)
+                {
+                    stageButtons[l].gameObject.SetActive(false);
                 }
                 pageButtons[0].interactable = true;
                 pageButtons[1].interactable = false;
@@ -85,10 +93,37 @@ public class LevelSelectManager : MonoBehaviour
                 {
                     stageButtons[k].gameObject.SetActive(true);
                 }
+                for (int l = 15; l < 20; l++)
+                {
+                    stageButtons[l].gameObject.SetActive(false);   
+                }
                 pageButtons[0].interactable = true;
                 pageButtons[1].interactable = true;
                 pageButtons[2].interactable = false;
                 pageButtons[3].interactable = true;
+                pageButtons[4].interactable = true;
+                break;
+            case 4:
+                for (int i = 0; i < 5; i++)
+                {
+                    stageButtons[i].gameObject.SetActive(false);
+                }
+                for (int j = 5; j < 10; j++)
+                {
+                    stageButtons[j].gameObject.SetActive(false);
+                }
+                for (int k = 10; k < 15; k++)
+                {
+                    stageButtons[k].gameObject.SetActive(false);
+                }
+                for (int l = 15; l < 20; l++)
+                {
+                    stageButtons[l].gameObject.SetActive(true);
+                }
+                pageButtons[0].interactable = true;
+                pageButtons[1].interactable = true;
+                pageButtons[2].interactable = true;
+                pageButtons[3].interactable = false;
                 pageButtons[4].interactable = true;
                 break;
             default:
