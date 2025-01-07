@@ -10,7 +10,6 @@ public class BallController : MonoBehaviour
     [SerializeField] private ReflectManager reflectManager;
     [SerializeField] private Camera mainCam;
     [SerializeField] private GameObject effectPrefab;
-    [SerializeField] private string sceneName;
     [Space(10)]
     [Header("Value")]
     public float speed = 10f;

@@ -451,7 +451,7 @@ MonoBehaviour:
   reflectManager: {fileID: 0}
   mainCam: {fileID: 0}
   effectPrefab: {fileID: 8962316185664347095, guid: 6e721d9224fac4f46b32a206f8e1a293, type: 3}
-  sceneName: Stage2
+  sceneName: StageClear
   speed: 10
   duration: 0.03
   strength: 1
