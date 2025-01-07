@@ -31,13 +31,13 @@ public class ReflectUIManager : MonoBehaviour
 
     public void FadeIn()
     {
-        fadeImage.DOFade(0, 1.5f).OnComplete(() => fadeImage.gameObject.SetActive(false));
+        fadeImage.DOFade(0, 1f).OnComplete(() => fadeImage.gameObject.SetActive(false));
     }
 
     public void FadeOutAndLoadScene(string sceneName)
     {
         fadeImage.gameObject.SetActive(true);
-        fadeImage.DOFade(1, 1.5f).OnComplete(() => SceneManager.LoadScene(sceneName));
+        fadeImage.DOFade(1, 1f).OnComplete(() => SceneManager.LoadScene(sceneName));
     }
 
 }

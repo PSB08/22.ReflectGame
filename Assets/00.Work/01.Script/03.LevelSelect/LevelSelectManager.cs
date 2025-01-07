@@ -22,36 +22,10 @@ public class LevelSelectManager : MonoBehaviour
 
     }
 
-    public void Stage1()
+    public void StageSelect(int index)
     {
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene("Stage" + index);
     }
-    public void Stage2()
-    {
-        SceneManager.LoadScene("Stage2");
-    }
-    public void Stage3()
-    {
-        SceneManager.LoadScene("Stage3");
-    }
-    public void Stage4()
-    {
-        SceneManager.LoadScene("Stage4");
-    }
-    public void Stage5()
-    {
-        SceneManager.LoadScene("Stage5");
-    }
-    public void Stage6()
-    {
-        SceneManager.LoadScene("Stage6");
-    }
-    public void Stage7()
-    {
-        SceneManager.LoadScene("Stage7");
-    }
-    public void Stage8()
-    {
-        SceneManager.LoadScene("Stage8");
-    }
+
+    
 }
