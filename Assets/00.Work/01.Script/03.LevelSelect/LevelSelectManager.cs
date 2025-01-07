@@ -23,6 +23,12 @@ public class LevelSelectManager : MonoBehaviour
             }
         }
 
+        pageButtons[0].interactable = false;
+        pageButtons[1].interactable = true;
+        pageButtons[2].interactable = true;
+        pageButtons[3].interactable = true;
+        pageButtons[4].interactable = true;
+
     }
 
     public void StageSelect(int index)
