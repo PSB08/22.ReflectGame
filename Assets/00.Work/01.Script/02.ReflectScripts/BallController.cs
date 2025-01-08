@@ -2,10 +2,12 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
+    [SerializeField] private UnityEvent ballSound;
     [Header("Serial")]
     [SerializeField] private ReflectManager reflectManager;
     [SerializeField] private Camera mainCam;
@@ -20,9 +22,11 @@ public class BallController : MonoBehaviour
     private bool isActioned = false;
 
     private LineRenderer lineRenderer;
+    private BGMScript bgmScript;
 
     private void Start()
     {
+        bgmScript = FindAnyObjectByType<BGMScript>();
         lineRenderer = GetComponentInChildren<LineRenderer>();
         lineRenderer.positionCount = 2;
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
@@ -73,7 +77,7 @@ public class BallController : MonoBehaviour
             Destroy(collision.gameObject);
 
             ShakeCamera();
-
+            ballSound?.Invoke();
             StartCoroutine(EffectCoroutine());
 
             Vector2 normal = collision.contacts[0].normal;
@@ -105,6 +109,7 @@ public class BallController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Wall"))
         {
+            ballSound?.Invoke();
             StartCoroutine(EffectCoroutine());
             Vector2 normal = collision.contacts[0].normal;
             direction = Vector2.Reflect(direction, normal);
