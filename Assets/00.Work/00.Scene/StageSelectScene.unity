@@ -637,14 +637,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1122882851}
-        m_TargetAssemblyTypeName: LevelSelectManager, Assembly-CSharp
-        m_MethodName: StageSelect
-        m_Mode: 3
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2631,7 +2631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -945.74915, y: 494}
+  m_AnchoredPosition: {x: -945.74994, y: 494}
   m_SizeDelta: {x: 0, y: 1000}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &409098095
@@ -9932,7 +9932,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 259507767}
   m_HandleRect: {fileID: 259507766}
   m_Direction: 0
-  m_Value: -0.00000042302904
+  m_Value: 0
   m_Size: 0.45035714
   m_NumberOfSteps: 0
   m_OnValueChanged:
