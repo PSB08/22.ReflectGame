@@ -96,11 +96,7 @@ public class BallController : MonoBehaviour
 
             if (IsListEmpty(reflectManager.lists))
             {
-                SceneManager.LoadScene(nextSceneLoad);
-                if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
-                {
-                    PlayerPrefs.SetInt("levelAt", nextSceneLoad);
-                }
+                MoveClearScene();
             }
             else
             {
@@ -137,6 +133,95 @@ public class BallController : MonoBehaviour
         GameObject effect = Instantiate(effectPrefab, pos, Quaternion.identity);
         yield return new WaitForSeconds(0.2f);
         Destroy(effect);
+    }
+
+    private void MoveClearScene()
+    {
+        switch (nextSceneLoad - 2)
+        {
+            case 1:
+                SceneManager.LoadScene("Clear1");
+                break;
+            case 2:
+                SceneManager.LoadScene("Clear2");
+                break;
+            case 3:
+                SceneManager.LoadScene("Clear3");
+                break;
+            case 4:
+                SceneManager.LoadScene("Clear4");
+                break;
+            case 5:
+                SceneManager.LoadScene("Clear5");
+                break;
+            case 6:
+                SceneManager.LoadScene("Clear6");
+                break;
+            case 7:
+                SceneManager.LoadScene("Clear7");
+                break;
+            case 8:
+                SceneManager.LoadScene("Clear8");
+                break;
+            case 9:
+                SceneManager.LoadScene("Clear9");
+                break;
+            case 10:
+                SceneManager.LoadScene("Clear10");
+                break;
+            case 11:
+                SceneManager.LoadScene("Clear11");
+                break;
+            case 12:
+                SceneManager.LoadScene("Clear12");
+                break;
+            case 13:
+                SceneManager.LoadScene("Clear13");
+                break;
+            case 14:
+                SceneManager.LoadScene("Clear14");
+                break;
+            case 15:
+                SceneManager.LoadScene("Clear15");
+                break;
+            case 16:
+                SceneManager.LoadScene("Clear16");
+                break;
+            case 17:
+                SceneManager.LoadScene("Clear17");
+                break;
+            case 18:
+                SceneManager.LoadScene("Clear18");
+                break;
+            case 19:
+                SceneManager.LoadScene("Clear19");
+                break;
+            case 20:
+                SceneManager.LoadScene("Clear20");
+                break;
+            case 21:
+                SceneManager.LoadScene("Clear21");
+                break;
+            case 22:
+                SceneManager.LoadScene("Clear22");
+                break;
+            case 23:
+                SceneManager.LoadScene("Clear23");
+                break;
+            case 24:
+                SceneManager.LoadScene("Clear24");
+                break;
+            case 25:
+                SceneManager.LoadScene("Clear25");
+                break;
+            default:
+                break;
+        }
+        //SceneManager.LoadScene(nextSceneLoad);
+        if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+        {
+            PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+        }
     }
 
 }

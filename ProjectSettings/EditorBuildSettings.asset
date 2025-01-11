@@ -45,6 +45,87 @@ EditorBuildSettings:
     path: Assets/00.Work/00.Scene/Stage/Stage11.unity
     guid: f06d7cf5120ee5d41bde9a2e9c27c44f
   - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage12.unity
+    guid: 2f95815de2934a0448a1c436321a0c95
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage13.unity
+    guid: a4d757bcdd25aed4e93aeba69ffce8ef
+  - enabled: 1
     path: Assets/00.Work/00.Scene/StageClear.unity
     guid: bafa5aa6ef4e83d4890c504d9726002b
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear1.unity
+    guid: 75a8ca1776f9857499da60303a3d3f58
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear2.unity
+    guid: b2c03efdaf2be6141b20611fcb90cf02
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear3.unity
+    guid: 216970948dbb1104492cee3af8c50e4e
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear4.unity
+    guid: a21968e98552eb643ad828a4d6544527
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear5.unity
+    guid: 3f4d9daadd472214e94a003deb916917
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear6.unity
+    guid: 44c9bc57c0ef2b0499fc9f2514428587
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear7.unity
+    guid: c45d62c7ca732554eb953e95b3d895d5
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear8.unity
+    guid: 61724c0cda7ddab43b48019dc588a99b
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear9.unity
+    guid: 384ff2fc82dc44245a481625745bdcdb
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear10.unity
+    guid: c26dc64ece962464c8622c181d6e80d2
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear11.unity
+    guid: afc99d278e67e9744818f3a753578d4d
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear12.unity
+    guid: 2e6febe0795298044b614a94a6d6d7ef
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear13.unity
+    guid: 79eec253dc3fe3f4b8c2b491539c6b3c
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear14.unity
+    guid: c0b5bc186f7816040a0ae0258e4e5549
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear15.unity
+    guid: 94c3cc7b11dfabc4ca4c3b336e788785
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear16.unity
+    guid: a325c874017c0ef43bc59d807def809a
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear17.unity
+    guid: c2d61088b81a51c408123670c3a72433
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear18.unity
+    guid: 3e0d4ee8213c8464499c5dc8ef138465
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear19.unity
+    guid: 88c346aa02bb38f4a944550a149aecf3
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear20.unity
+    guid: 6666b5ff9f66dcc4e9f96b5fbe0dbacc
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear21.unity
+    guid: 673907dc51428eb4888f7bcf70d59535
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear22.unity
+    guid: b35e848c0a5d85742900e3d52ad434e1
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear23.unity
+    guid: a0df5a49c90a1d54a9e594aeaa29ceb0
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear24.unity
+    guid: 253f3285d05ce27479f41a5d4683ed03
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/StageClear/Clear25.unity
+    guid: 1d6511efcc39ec2479838b05347b30f5
   m_configObjects: {}

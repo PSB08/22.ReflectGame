@@ -28,6 +28,10 @@ public class ReflectUIManager : MonoBehaviour
     {
         SceneManager.LoadScene("TitleScene");
     }
+    public void NextStage(int stage)
+    {
+        SceneManager.LoadScene("Stage" + stage);
+    }
 
     public void FadeIn()
     {
