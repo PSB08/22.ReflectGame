@@ -573,8 +573,8 @@ GameObject:
   - component: {fileID: 826625278}
   - component: {fileID: 826625280}
   m_Layer: 7
-  m_Name: Brick3
-  m_TagString: Brick
+  m_Name: DeathBrick
+  m_TagString: DeathWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 826625276}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.34, y: 2.09, z: 0}
+  m_LocalPosition: {x: 2.64, y: -1.05, z: 0}
   m_LocalScale: {x: 2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -681,7 +681,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -707,8 +707,8 @@ MonoBehaviour:
   _loopType: 1
   _ease: 1
   _loopCnt: -1
-  _endValue: -2
-  _duration: 0.5
+  _endValue: 3
+  _duration: 1
 --- !u!1 &1199728011
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +906,7 @@ Transform:
   m_GameObject: {fileID: 1218793857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26, y: -0.76, z: 0}
+  m_LocalPosition: {x: 8.15, y: 1.57, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1454,7 +1454,7 @@ Transform:
   m_GameObject: {fileID: 1645702832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.81, y: -3.94, z: 0}
+  m_LocalPosition: {x: -6.96, y: 2.81, z: 0}
   m_LocalScale: {x: 2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1649,7 +1649,7 @@ Transform:
   m_GameObject: {fileID: 1786165693}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.18, y: -2.66, z: 0}
+  m_LocalPosition: {x: -1.09, y: -2.76, z: 0}
   m_LocalScale: {x: 2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1931,7 +1931,7 @@ Transform:
   m_GameObject: {fileID: 1927534839}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18, y: -0.47, z: 0}
+  m_LocalPosition: {x: 6.94, y: -1.04, z: 0}
   m_LocalScale: {x: 2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3866,11 +3866,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6171227272023249314, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.97
+      value: 6.87
       objectReference: {fileID: 0}
     - target: {fileID: 6171227272023249314, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.17
+      value: 3.28
       objectReference: {fileID: 0}
     - target: {fileID: 6171227272023249314, guid: 03516d9f08aea754a98ab36f3baa435e, type: 3}
       propertyPath: m_LocalPosition.z
