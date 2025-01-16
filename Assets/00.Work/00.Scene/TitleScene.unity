@@ -1998,7 +1998,6 @@ GameObject:
   - component: {fileID: 642616303}
   - component: {fileID: 642616305}
   - component: {fileID: 642616304}
-  - component: {fileID: 642616306}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2122,37 +2121,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642616302}
   m_CullTransparentMesh: 1
---- !u!114 &642616306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642616302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ace8ced0e81c847968cdca0aeda757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  typewriterStartsAutomatically: 0
-  animationLoop: 0
-  timeScale: 0
-  _text: Start
-  useDynamicScaling: 1
-  referenceFontSize: 50
-  isResettingTimeOnNewText: 1
-  useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 11400000, guid: a41daba20229bce46a903cafa03acc71, type: 2}
-  databaseAppearances: {fileID: 11400000, guid: e288a9b1a4f9b94438cca3e572a5eab0, type: 2}
-  useDefaultStyleSheet: 1
-  styleSheet: {fileID: 0}
-  databaseActions: {fileID: 11400000, guid: 982cb79253d8bb540867f4df39ca007b, type: 2}
-  defaultAppearancesTags:
-  - size
-  defaultDisappearancesTags: []
-  defaultBehaviorsTags:
-  - bounce
-  defaultTagsMode: 0
 --- !u!1 &670524246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4009,7 +3977,6 @@ GameObject:
   - component: {fileID: 1488117937}
   - component: {fileID: 1488117939}
   - component: {fileID: 1488117938}
-  - component: {fileID: 1488117940}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4133,37 +4100,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488117936}
   m_CullTransparentMesh: 1
---- !u!114 &1488117940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488117936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ace8ced0e81c847968cdca0aeda757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  typewriterStartsAutomatically: 0
-  animationLoop: 0
-  timeScale: 0
-  _text: Start
-  useDynamicScaling: 1
-  referenceFontSize: 50
-  isResettingTimeOnNewText: 1
-  useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 11400000, guid: a41daba20229bce46a903cafa03acc71, type: 2}
-  databaseAppearances: {fileID: 11400000, guid: e288a9b1a4f9b94438cca3e572a5eab0, type: 2}
-  useDefaultStyleSheet: 1
-  styleSheet: {fileID: 0}
-  databaseActions: {fileID: 11400000, guid: 982cb79253d8bb540867f4df39ca007b, type: 2}
-  defaultAppearancesTags:
-  - size
-  defaultDisappearancesTags: []
-  defaultBehaviorsTags:
-  - bounce
-  defaultTagsMode: 0
 --- !u!1 &1488919055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,7 +4189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 532457675622549241, guid: e74ae4d5945cd9246ab289e8a3470414, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6171151294228432990, guid: e74ae4d5945cd9246ab289e8a3470414, type: 3}
       propertyPath: m_Color.b
@@ -4773,7 +4709,6 @@ GameObject:
   - component: {fileID: 1589758094}
   - component: {fileID: 1589758096}
   - component: {fileID: 1589758095}
-  - component: {fileID: 1589758097}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4897,37 +4832,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589758093}
   m_CullTransparentMesh: 1
---- !u!114 &1589758097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589758093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ace8ced0e81c847968cdca0aeda757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  typewriterStartsAutomatically: 0
-  animationLoop: 0
-  timeScale: 0
-  _text: Start
-  useDynamicScaling: 1
-  referenceFontSize: 50
-  isResettingTimeOnNewText: 1
-  useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 11400000, guid: a41daba20229bce46a903cafa03acc71, type: 2}
-  databaseAppearances: {fileID: 11400000, guid: e288a9b1a4f9b94438cca3e572a5eab0, type: 2}
-  useDefaultStyleSheet: 1
-  styleSheet: {fileID: 0}
-  databaseActions: {fileID: 11400000, guid: 982cb79253d8bb540867f4df39ca007b, type: 2}
-  defaultAppearancesTags:
-  - size
-  defaultDisappearancesTags: []
-  defaultBehaviorsTags:
-  - bounce
-  defaultTagsMode: 0
 --- !u!1 &1605425049
 GameObject:
   m_ObjectHideFlags: 0
