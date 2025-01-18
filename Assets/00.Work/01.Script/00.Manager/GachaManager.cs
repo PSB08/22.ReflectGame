@@ -7,7 +7,9 @@ using UnityEngine.UI;
 public class GachaManager : MonoBehaviour
 {
     private Vector3 imagesTrans;
-    public Sprite[] ballImages;
+    public Sprite[] sportsballImage;
+    public Sprite[] planetballImage;
+    public Sprite[] foodballImage;
     public GameObject panel;
     public Image image;
 
@@ -20,10 +22,21 @@ public class GachaManager : MonoBehaviour
 
     public void GachaBtnClick()
     {
-        int index = Random.Range(0, ballImages.Length);
-        string ballName = ballImages[index].name;
+        int index = Random.Range(0, sportsballImage.Length);
+        string ballName = sportsballImage[index].name;
 
-        image.sprite = ballImages[index];
+        image.sprite = sportsballImage[index];
+        StartCoroutine(FadeImage());
+
+        PlayerPrefs.SetString("sprite", ballName);
+        PlayerPrefs.Save();
+    }
+    public void GachaPlanetball()
+    {
+        int index = Random.Range(0, planetballImage.Length);
+        string ballName = planetballImage[index].name;
+
+        image.sprite = planetballImage[index];
         StartCoroutine(FadeImage());
 
         PlayerPrefs.SetString("sprite", ballName);
@@ -38,10 +51,10 @@ public class GachaManager : MonoBehaviour
     private IEnumerator FadeImage()
     {
         panel.SetActive(true);
-        image.rectTransform.DOMoveY(500, 1);
+        image.rectTransform.DOMoveY(500, 0.7f);
         image.enabled = true;
         image.transform.position = imagesTrans;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         image.enabled = false;
         panel.SetActive(false);
     }
