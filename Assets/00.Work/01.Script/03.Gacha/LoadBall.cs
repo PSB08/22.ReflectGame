@@ -7,12 +7,9 @@ public class LoadBall : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
 
-    private void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            LoadGachaSprite();
-        }
+        LoadGachaSprite();
     }
 
     private void LoadGachaSprite()
