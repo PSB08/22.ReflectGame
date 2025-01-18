@@ -75,6 +75,18 @@ EditorBuildSettings:
     path: Assets/00.Work/00.Scene/Stage/Stage21.unity
     guid: 795e43338f96b844a9d1ccfcb96b2d9e
   - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage22.unity
+    guid: 896430fb116b8cc45ace4cf1d61209c2
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage23.unity
+    guid: a94c4a519d2049746905aa403f46fe8a
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage24.unity
+    guid: d19f0eb06a741af488a2491eb4d75198
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/Stage/Stage25.unity
+    guid: 9998e612dbf5bb240b2be9752cf34c81
+  - enabled: 1
     path: Assets/00.Work/00.Scene/StageClear.unity
     guid: bafa5aa6ef4e83d4890c504d9726002b
   - enabled: 1
@@ -152,4 +164,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00.Work/00.Scene/StageClear/Clear25.unity
     guid: 1d6511efcc39ec2479838b05347b30f5
+  - enabled: 1
+    path: Assets/00.Work/00.Scene/GachaScene.unity
+    guid: c33560cda31d62e44bf25d8c70dc3bd2
   m_configObjects: {}

@@ -47,5 +47,10 @@ public class TitleUIManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void GachaBtn()
+    {
+        SceneManager.LoadScene("GachaScene");
+    }
+
     #endregion
 }

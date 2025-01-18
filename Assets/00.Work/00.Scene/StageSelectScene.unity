@@ -2054,8 +2054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d502acf2fa343ba4cb4a5e4063ed4a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originImage: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
-  changedImage: {fileID: 1008449568, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  originImage: {fileID: 112959779, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  changedImage: {fileID: 1896016734, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
 --- !u!114 &292015705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2144,7 +2144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Sprite: {fileID: 112959779, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3065,8 +3065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d502acf2fa343ba4cb4a5e4063ed4a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originImage: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
-  changedImage: {fileID: 1008449568, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  originImage: {fileID: 112959779, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  changedImage: {fileID: 1896016734, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
 --- !u!114 &574096648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3155,7 +3155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Sprite: {fileID: 112959779, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6327,7 +6327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1138217628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6599,8 +6599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d502acf2fa343ba4cb4a5e4063ed4a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originImage: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
-  changedImage: {fileID: 1008449568, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  originImage: {fileID: 1839178747, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  changedImage: {fileID: 1385655767, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
 --- !u!114 &1254329375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6689,7 +6689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Sprite: {fileID: 1839178747, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9483,8 +9483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d502acf2fa343ba4cb4a5e4063ed4a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originImage: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
-  changedImage: {fileID: 1008449568, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  originImage: {fileID: 1839178747, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  changedImage: {fileID: 1385655767, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
 --- !u!114 &2031348131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9573,7 +9573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -648639179, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
+  m_Sprite: {fileID: 1839178747, guid: 390c65be4362892408f9c5f2eeb56764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
