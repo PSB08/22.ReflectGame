@@ -12,6 +12,13 @@ public class LoadBall : MonoBehaviour
         LoadGachaSprite();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            LoadGachaSprite();
+        }
+    }
     private void LoadGachaSprite()
     {
         string spriteName = PlayerPrefs.GetString("sprite");
